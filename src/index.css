@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.inputs {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+input[type="text"]{
+  width:30%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 0.5px solid #333;
+}
+
+form {
+  margin-top: 40px;
+  margin-left: 600px;
+  margin-right: 600px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #333;
+}
+
+form label {
+position: absolute;
+left: -10000px;
+}
+
+.todoheading{
+  text-align: center;
+}
+
+.task-input {
+  text-align: center;
+}
+
+.submit {
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  margin-left: 280px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.submit:hover,
+.submit:focus {
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.submit:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.submit:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+}
+
+article {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid hsl(0, 0%, 58%);
+  margin: auto;
+  max-width: 600px;
+  margin-top: 40px;
+}
+
+.todo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  min-width: 30px;
+  min-height: 30px;
+  margin-right: 1rem;
+}
+
+button {
+  min-width: 50px;
+  min-height: 50px;
+  border: 1px solid #333;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.trash {
+  background-color: #fff;
+  color: mediumvioletred;
+  font-size: 30px;
+}
+
+.trash:focus, .trash:hover {
+  filter:brightness(120%)
+}
+
+.new-todo {
+  width: 100%;
+  padding-right: 30px;
+}
+
+.edit {
+  margin-left: 230px;
+  background-color: #fff;
+  color: mediumvioletred;
+  font-size: 30px;
+}
+
+.edit:focus, .edit:hover {
+  filter:brightness(120%)
+}
+
+.form-control{
+  width:50%;
+  border-radius: 10px;
+  border: 0.5px solid #333;
+}
